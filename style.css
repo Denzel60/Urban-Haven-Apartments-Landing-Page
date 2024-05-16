@@ -106,6 +106,7 @@ header{
   justify-content: space-around;
   align-items: center;
   border-bottom: 0.3em solid #646cffaa;
+  position:;
 }
 
 header .header-navbar ol{
