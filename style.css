@@ -106,7 +106,10 @@ header{
   justify-content: space-around;
   align-items: center;
   border-bottom: 0.3em solid #646cffaa;
-  position:;
+  position: fixed;
+  background-color: #242424;
+  width: 100%;
+  z-index: 100;
 }
 
 header .header-navbar ol{
@@ -165,7 +168,7 @@ header .header-navbar ol li{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0em 3em;
+  margin: 0em 1.5em;
   border: 0.1em solid #646cff;
   border-radius: 1em;
 }
@@ -194,4 +197,11 @@ header .header-navbar ol li{
 .space-container-para{
   width: 15em;
   text-align: center;
+}
+
+.amenities{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
