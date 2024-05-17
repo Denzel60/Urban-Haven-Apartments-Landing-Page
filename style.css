@@ -36,6 +36,28 @@ body {
 h1 {
   font-size: 3.0em;
   line-height: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.5em;
+  line-height: 0;
+  text-transform: capitalize;
+}
+
+p{
+  font-size: 20px;
+  line-height: 1em;
+}
+
+input{
+  border-radius: 8px;
+  width: 25em;
+  height: 3em;
+  text-align: center;
+  font-size: 15px;
+  border-color: #646cff;
+  margin: 0.2em;
 }
 
 #app {
@@ -236,4 +258,68 @@ header .header-navbar ol li{
   border: 0.1em solid black; 
 }
 
+.contact{
+  display: flex;
+}
 
+.contact-image{
+  background-image: url(./assets/Hotel.jpg);
+  background-size: cover;
+}
+
+.contact-details{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-image{
+  display: flex;
+  align-items:end;
+  justify-content: center;
+  padding: 3em;
+  width: 35em;
+  height: 35em;
+  border-radius: 8px;
+}
+
+.contact-image:hover button{
+  border-color: #646cff;
+  transform: scale(95%);
+}
+
+.contact-form{
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-personal{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-dates{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-room{
+  border-radius: 8px;
+  width: 25em;
+  height: 3em;
+  text-align: center;
+  font-size: 15px;
+}
