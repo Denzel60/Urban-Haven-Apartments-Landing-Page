@@ -199,9 +199,41 @@ header .header-navbar ol li{
   text-align: center;
 }
 
+.accomodation{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .amenities{
   display: flex;
+}
+
+.amenities-services{
+  display: flex;
   flex-direction: column;
+  padding: 2em;
+  line-height: 1em;
+  width: 1/2;
+}
+
+.amenities-images{
+  display: flex;
+  object-fit: contain;
+  flex-wrap: wrap;
+  height: 45em;
+  padding: 2em;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
+  width: 1/2;
 }
+
+.amenities-images img{
+  height: 15em;
+  width: 1/5;
+  margin: 0.5em 0.5em;
+  border: 0.1em solid black; 
+}
+
+
