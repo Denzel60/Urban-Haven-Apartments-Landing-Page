@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   font-weight: 400;
   --secondary-font: "Dancing Script", cursive;;
 
@@ -35,13 +35,13 @@ body {
 
 h1 {
   font-size: 3.0em;
-  line-height: 0;
+  /* line-height: 0; */
   text-transform: uppercase;
 }
 
 h2 {
   font-size: 2.5em;
-  line-height: 0;
+  /* line-height: 0; */
   text-transform: capitalize;
 }
 
@@ -323,3 +323,25 @@ header .header-navbar ol li{
   text-align: center;
   font-size: 15px;
 }
+
+footer{
+  background-color: #1a1a1a;
+}
+.reach{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reach-about{
+  width: 33%;
+  padding: 3em;
+}
+.reach-us{
+  width: 33%;
+  padding: 3em;
+}
+.reach-social{
+  width: 30%;
+  padding: 3em;
+}
+
