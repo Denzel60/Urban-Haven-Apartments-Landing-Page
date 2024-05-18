@@ -64,6 +64,7 @@ input{
   font-size: 15px;
   border-color: #646cff;
   margin: 0.2em;
+  background-color: #1a1a1a;
 }
 
 #app {
@@ -340,7 +341,7 @@ footer{
   text-align: center;
   justify-content: center;
   padding: 3em;
-  width: 80%;
+  width: 90%;
 }
 
 @media (max-width:768px){
