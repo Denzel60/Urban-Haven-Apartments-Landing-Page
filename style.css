@@ -15,7 +15,7 @@
 }
 
 *{
-  /* overflow-x: hidden; */
+  overflow-x:auto;
   box-sizing: border-box;
 }
 
@@ -152,7 +152,6 @@ header .header-navbar ol li{
 }
 
 .hero{
-  height: 80vh;
   height: 80vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(./assets/Home.jpg);
   background-position: center;
@@ -338,23 +337,41 @@ footer{
   justify-content: center;
 }
 .reach-about{
-  width: 33%;
+  text-align: center;
+  justify-content: center;
   padding: 3em;
-}
-.reach-us{
-  width: 33%;
-  padding: 3em;
-}
-.reach-social{
-  width: 30%;
-  padding: 3em;
+  width: 80%;
 }
 
 @media (max-width:768px){
   *{
     box-sizing: border-box;
+    overflow-x: hidden;
   }
  header{
+  flex-direction: column;
+ }
+ a {
+  font-weight: 300;
+  color: #646cff;
+  text-decoration: inherit;
+  font-size: 0.9em;
+ }
+ .hero{
+  width: 100%;
+ }
+ .space-container-rooms{
+  margin: 0.5em 1em;
+  width: 40%;
+ }
+ .amenities{
+  display: flex;
+  flex-direction: column;
+ }
+ .contact{
+  flex-direction: column;
+ }
+ .reach{
   flex-direction: column;
  }
 }
