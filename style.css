@@ -387,7 +387,7 @@ footer{
 @media (max-width:430px){
   header{
     flex-direction: column;
-    height: 10vh;
+    height: 12.5vh;
   }
   .logo{
     font-size: 13px;
@@ -396,7 +396,7 @@ footer{
     font-weight: 300;
     color: #646cff;
     text-decoration: inherit;
-    font-size: 0.5em;
+    font-size: 1em;
   }
 }
 
