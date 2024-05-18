@@ -212,8 +212,9 @@ header .header-navbar ol li{
 }
 
 .space-container-img img{
-  height: 20em;
-  width: 15em;
+  height: 90%;
+  width: 80%;
+  border-radius: 10px;
 }
 
 .space-container-header{
@@ -349,6 +350,7 @@ footer{
   }
  header{
   flex-direction: column;
+  height: 12.5vh;
  }
  a {
   font-weight: 300;
@@ -361,10 +363,13 @@ footer{
  }
  .space-container-rooms{
   margin: 0.5em 1em;
-  width: 90%;
+  width: 85%;
  }
  .amenities{
   display: flex;
+  flex-direction: column;
+ }
+ .amenities-images{
   flex-direction: column;
  }
  .contact{
@@ -375,5 +380,13 @@ footer{
  }
 }
 
-@media (max-width:768px){}
+@media (max-width:430px){
+  header{
+    flex-direction: column;
+    height: 15vh;
+  }
+  .logo{
+    font-size: 15px;
+  }
+}
 
