@@ -358,6 +358,9 @@ footer{
   text-decoration: inherit;
   font-size: 0.9em;
  }
+ .logo{
+  font-size: 20px;
+}
  .hero{
   width: 100%;
  }
@@ -383,10 +386,16 @@ footer{
 @media (max-width:430px){
   header{
     flex-direction: column;
-    height: 15vh;
+    height: 10vh;
   }
   .logo{
-    font-size: 15px;
+    font-size: 13px;
+  }
+  a {
+    font-weight: 300;
+    color: #646cff;
+    text-decoration: inherit;
+    font-size: 0.5em;
   }
 }
 
