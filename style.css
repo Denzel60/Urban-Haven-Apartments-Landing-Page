@@ -221,7 +221,6 @@ header .header-navbar ol li{
   text-align: center;
 }
 .space-container-para{
-  width: 15em;
   text-align: center;
 }
 
@@ -362,7 +361,7 @@ footer{
  }
  .space-container-rooms{
   margin: 0.5em 1em;
-  width: 40%;
+  width: 90%;
  }
  .amenities{
   display: flex;
@@ -375,4 +374,6 @@ footer{
   flex-direction: column;
  }
 }
+
+@media (max-width:768px){}
 
