@@ -398,5 +398,14 @@ footer{
     text-decoration: inherit;
     font-size: 1em;
   }
+  input{
+    width: 95%;
+  }
+  .header-navbar{
+    overflow-x: scroll;
+  }
+  .contact-form{
+    width: 100%;
+  }
 }
 
