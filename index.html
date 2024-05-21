@@ -14,16 +14,14 @@
       </div>
       <div class="header-navbar">
         <ol>
-          <li><a href="#">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#spaces">Spaces</a></li>
-          <li><a href="#">Prices</a></li>
-          <li><a href="#">Location</a></li>
-          <li><a href="#">Amenities</a></li>
-          <li><a href="#">Contact details</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#form">Contact</a></li>
         </ol>
       </div>
     </header>
-    <section class="hero">
+    <section class="hero" id="home">
       <h2 class="hero-subtitle">Welcome to:</h2>
       <h2 class="hero-logo">Urban Haven Apartments</h2>
       <div class="reservation-learn">
@@ -145,7 +143,7 @@
       </div>
     </section>
 
-    <section class="accomodation">
+    <section class="accomodation" id="amenities">
       <h1 style="text-align: center; text-decoration: underline">Amenities</h1>
 
       <div class="amenities">
@@ -257,12 +255,17 @@
           </div>
 
           <label for="Room">Choose a room:</label>
-          <select title="Rooms" name="cars" class="Select-room">
+          <select title="Rooms" name="cars" class="select-room">
             <option value="audi">Economical</option>
             <option value="volvo">Standard</option>
             <option value="saab">Deluxe</option>
             <option value="fiat">Superior</option>
           </select>
+          <textarea
+            name=""
+            id="textarea"
+            placeholder="Enter your message here"
+          ></textarea>
           <button>Submit &rarr;</button>
         </div>
       </div>

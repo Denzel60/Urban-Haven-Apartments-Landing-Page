@@ -327,6 +327,19 @@ header .header-navbar ol li{
   height: 3em;
   text-align: center;
   font-size: 15px;
+  margin-bottom: 5px;
+  border: 0.2em solid #646cff;
+}
+
+#textarea{
+  background-color: #1a1a1a;
+  width: 90%;
+  height: 15vh;
+  border: 0.2em solid #646cff;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+  color: grey;
 }
 
 footer{
@@ -406,6 +419,9 @@ footer{
   }
   .contact-form{
     width: 100%;
+  }
+  .amenities-images{
+    flex-direction: column;
   }
 }
 
