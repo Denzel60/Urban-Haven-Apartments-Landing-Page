@@ -323,12 +323,13 @@ header .header-navbar ol li{
 
 .select-room{
   border-radius: 8px;
-  width: 25em;
+  width: 23em;
   height: 3em;
   text-align: center;
   font-size: 15px;
   margin-bottom: 5px;
   border: 0.2em solid #646cff;
+  background-color: #1a1a1a;
 }
 
 #textarea{
